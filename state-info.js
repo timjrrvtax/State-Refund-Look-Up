@@ -7,7 +7,8 @@ if (!stateName) {
     window.location.href = 'index.html';
 }
 
-// CSV parser (same as in app.js)
+// CSV parser for our specific CSV format
+// Note: This assumes URLs don't contain commas (which they don't in our data)
 function parseCSV(csvText) {
     const lines = csvText.trim().split('\n');
     const headers = lines[0].split(',').map(h => h.trim());
@@ -17,7 +18,7 @@ function parseCSV(csvText) {
         const line = lines[i];
         if (!line.trim()) continue;
         
-        // Simple split by comma since our CSV doesn't have quoted fields
+        // Simple split by comma since our CSV doesn't have quoted fields or commas in values
         const values = line.split(',').map(v => v.trim());
         
         if (values.length >= headers.length) {

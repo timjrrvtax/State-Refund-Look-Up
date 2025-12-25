@@ -1,7 +1,8 @@
 // State data will be loaded from CSV
 let stateData = {};
 
-// CSV parser that handles commas within URLs
+// CSV parser that handles our specific CSV format
+// Note: This assumes URLs don't contain commas (which they don't in our data)
 function parseCSV(csvText) {
     const lines = csvText.trim().split('\n');
     const headers = lines[0].split(',').map(h => h.trim());
@@ -11,7 +12,7 @@ function parseCSV(csvText) {
         const line = lines[i];
         if (!line.trim()) continue;
         
-        // Simple split by comma since our CSV doesn't have quoted fields
+        // Simple split by comma since our CSV doesn't have quoted fields or commas in values
         const values = line.split(',').map(v => v.trim());
         
         if (values.length >= headers.length) {
@@ -122,6 +123,7 @@ window.verifyAllLinks = async function() {
         };
         
         // Skip refund URL verification for states without income tax
+        // Note: States with 'limited' income tax DO have refund URLs, so we verify them
         if (data.HasIncomeTax !== 'false' && data.RefundURL !== 'N/A') {
             stateResults.RefundURL.status = 'pending';
         }
