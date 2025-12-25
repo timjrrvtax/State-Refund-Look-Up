@@ -15,10 +15,13 @@ async function loadStates() {
         for (let i = 1; i < lines.length; i++) {
             const line = lines[i];
             if (line.trim()) {
-                const values = line.split(',');
-                const state = values[0].trim();
-                const url = values[1].trim();
-                stateData[state] = url;
+                // Split only on first comma to handle URLs that may contain commas
+                const firstCommaIndex = line.indexOf(',');
+                if (firstCommaIndex > 0) {
+                    const state = line.substring(0, firstCommaIndex).trim();
+                    const url = line.substring(firstCommaIndex + 1).trim();
+                    stateData[state] = url;
+                }
             }
         }
         
