@@ -7,9 +7,8 @@ async function loadStates() {
         const response = await fetch('states.csv');
         const csvText = await response.text();
         
-        // Parse CSV
+        // Parse CSV (skip header row)
         const lines = csvText.trim().split('\n');
-        const headers = lines[0].split(',');
         
         // Skip header row and process data
         for (let i = 1; i < lines.length; i++) {
