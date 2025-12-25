@@ -17,22 +17,8 @@ function parseCSV(csvText) {
         const line = lines[i];
         if (!line.trim()) continue;
         
-        const values = [];
-        let current = '';
-        let inQuotes = false;
-        
-        for (let j = 0; j < line.length; j++) {
-            const char = line[j];
-            if (char === '"') {
-                inQuotes = !inQuotes;
-            } else if (char === ',' && !inQuotes) {
-                values.push(current.trim());
-                current = '';
-            } else {
-                current += char;
-            }
-        }
-        values.push(current.trim());
+        // Simple split by comma since our CSV doesn't have quoted fields
+        const values = line.split(',').map(v => v.trim());
         
         if (values.length >= headers.length) {
             const state = values[0];
