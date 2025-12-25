@@ -1,51 +1,52 @@
-State,URL
-Alabama,https://myalabamataxes.alabama.gov/_/
-Alaska,https://mytax.alaska.gov/
-Arizona,https://azdor.gov/wheres-my-refund
-Arkansas,https://atap.arkansas.gov/_/
-California,https://www.ftb.ca.gov/refund-status/index.html
-Colorado,https://www.colorado.gov/revenueonline
-Connecticut,https://portal.ct.gov/DRS/TSC/Refund-Status
-Delaware,https://dorweb.revenue.delaware.gov/scripts/cardservice/default.asp
-District of Columbia,https://mytax.dc.gov/_/
-Georgia,https://gtc.dor.ga.gov/_/
-Hawaii,https://hitax.hawaii.gov/_/
-Idaho,https://tax.idaho.gov/i-1182.cfm
-Illinois,https://mytax.illinois.gov/_/
-Indiana,https://www.in.gov/dor/tax-refunds/wheres-my-refund/
-Iowa,https://tax.iowa.gov/wheres-my-refund
-Kansas,https://www.kdor.ks.gov/apps/kcsc/increfundstatus.aspx
-Kentucky,https://revenue.ky.gov/Individual/Wheres-My-Refund/Pages/default.aspx
-Louisiana,https://latap.revenue.louisiana.gov/
-Maine,https://portal.maine.gov/refund/
-Maryland,https://interactive.marylandtaxes.gov/individuals/iFile_ChooseForm/refundstatus.php
-Massachusetts,https://www.mass.gov/service-details/check-the-status-of-your-massachusetts-personal-income-tax-refund
-Michigan,https://mto.treasury.michigan.gov/EServices/
-Minnesota,https://www.revenue.state.mn.us/wheres-my-refund
-Mississippi,https://tap.dor.ms.gov/_/
-Missouri,https://dors.mo.gov/tax/iit/refund.php
-Montana,https://mtrevenue.gov/tap/_/
-Nebraska,https://revenue.nebraska.gov/about/news-releases/wheres-my-refund
-Nevada,https://www.nevadatax.nv.gov/
-New Hampshire,https://www.revenue.nh.gov/contact/refund.htm
-New Jersey,https://www1.state.nj.us/TYTR_RefundInquiry/jsp/refund.jsp
-New Mexico,https://tap.state.nm.us/_/
-New York,https://www.tax.ny.gov/pit/file/refund.htm
-North Carolina,https://www.ncdor.gov/wheres-my-refund
-North Dakota,https://apps.nd.gov/tax/tap/_/
-Ohio,https://tax.ohio.gov/individual/refunds
-Oklahoma,https://oktap.tax.ok.gov/
-Oregon,https://www.oregon.gov/dor/pages/refund.aspx
-Pennsylvania,https://www.revenue.pa.gov/OnlineServices/TaxServices/RefundStatus/Pages/default.aspx
-Rhode Island,https://tax.ri.gov/refund/
-South Carolina,https://dor.sc.gov/tax/refund
-South Dakota,https://dor.sd.gov/businesses/taxes/
-Tennessee,https://tntap.tn.gov/eservices/_/
-Texas,https://comptroller.texas.gov/taxes/
-Utah,https://tap.utah.gov/TaxExpress/_/
-Vermont,https://myvtax.vermont.gov/_/
-Virginia,https://www.tax.virginia.gov/refund-status-information
-Washington,https://dor.wa.gov/taxes-rates/other-taxes
-West Virginia,https://tax.wv.gov/Individuals/RefundInformation/Pages/RefundInformation.aspx
-Wisconsin,https://www.revenue.wi.gov/Pages/FAQS/pcs-refund.aspx
-Wyoming,https://revenue.wyo.gov/
+State,RefundURL,MainTaxURL,HasIncomeTax,BusinessURL,PropertyURL
+Alabama,https://myalabamataxes.alabama.gov/_/,https://revenue.alabama.gov/,true,https://revenue.alabama.gov/business/,https://revenue.alabama.gov/property-tax/
+Alaska,N/A,https://tax.alaska.gov/,false,https://tax.alaska.gov/programs/whatsnew.aspx,https://tax.alaska.gov/programs/programs/index.aspx
+Arizona,https://azdor.gov/wheres-my-refund,https://azdor.gov/,true,https://azdor.gov/business,https://azdor.gov/property
+Arkansas,https://atap.arkansas.gov/_/,https://www.dfa.arkansas.gov/,true,https://www.dfa.arkansas.gov/excise-tax/business-tax/,https://www.dfa.arkansas.gov/excise-tax/property-tax/
+California,https://www.ftb.ca.gov/refund-status/index.html,https://www.ftb.ca.gov/,true,https://www.ftb.ca.gov/file/business/index.html,https://www.boe.ca.gov/proptaxes/
+Colorado,https://www.colorado.gov/revenueonline,https://tax.colorado.gov/,true,https://tax.colorado.gov/business-income-tax,https://www.colorado.gov/dola/property-tax
+Connecticut,https://portal.ct.gov/DRS/TSC/Refund-Status,https://portal.ct.gov/DRS,true,https://portal.ct.gov/DRS/Businesses/Business-Tax,https://portal.ct.gov/OPM/IGPP-MAIN/Property-Tax/Property-Tax
+Delaware,https://dorweb.revenue.delaware.gov/scripts/cardservice/default.asp,https://revenue.delaware.gov/,true,https://revenue.delaware.gov/business-tax/,https://revenue.delaware.gov/frequently-asked-questions/real-property-tax-faqs/
+District of Columbia,https://mytax.dc.gov/_/,https://otr.cfo.dc.gov/,true,https://otr.cfo.dc.gov/page/business-taxes,https://otr.cfo.dc.gov/page/real-property-tax
+Florida,N/A,https://floridarevenue.com/,false,https://floridarevenue.com/taxes/businesstax/Pages/default.aspx,https://floridarevenue.com/property/Pages/default.aspx
+Georgia,https://gtc.dor.ga.gov/_/,https://dor.georgia.gov/,true,https://dor.georgia.gov/business-tax,https://dor.georgia.gov/property-tax
+Hawaii,https://hitax.hawaii.gov/_/,https://tax.hawaii.gov/,true,https://tax.hawaii.gov/businesses/,https://tax.hawaii.gov/real-property/
+Idaho,https://tax.idaho.gov/i-1182.cfm,https://tax.idaho.gov/,true,https://tax.idaho.gov/business.html,https://tax.idaho.gov/property.html
+Illinois,https://mytax.illinois.gov/_/,https://tax.illinois.gov/,true,https://tax.illinois.gov/businesses.html,https://tax.illinois.gov/localgovernments/property.html
+Indiana,https://www.in.gov/dor/tax-refunds/wheres-my-refund/,https://www.in.gov/dor/,true,https://www.in.gov/dor/business-tax/,https://www.in.gov/dlgf/property-tax/
+Iowa,https://tax.iowa.gov/wheres-my-refund,https://tax.iowa.gov/,true,https://tax.iowa.gov/business-taxes,https://tax.iowa.gov/property-tax
+Kansas,https://www.kdor.ks.gov/apps/kcsc/increfundstatus.aspx,https://www.kdor.ks.gov/,true,https://www.kdor.ks.gov/Business/Business-Taxes/Business-Taxes.aspx,https://www.kdor.ks.gov/Apps/kcsc/advocateviewproperty.aspx
+Kentucky,https://revenue.ky.gov/Individual/Wheres-My-Refund/Pages/default.aspx,https://revenue.ky.gov/,true,https://revenue.ky.gov/Business/Pages/default.aspx,https://revenue.ky.gov/Property/Pages/default.aspx
+Louisiana,https://latap.revenue.louisiana.gov/,https://revenue.louisiana.gov/,true,https://revenue.louisiana.gov/BusinessIncome,https://revenue.louisiana.gov/PropertyTax
+Maine,https://portal.maine.gov/refund/,https://www.maine.gov/revenue/,true,https://www.maine.gov/revenue/taxes/business-tax,https://www.maine.gov/revenue/taxes/property-tax
+Maryland,https://interactive.marylandtaxes.gov/individuals/iFile_ChooseForm/refundstatus.php,https://www.marylandtaxes.gov/,true,https://www.marylandtaxes.gov/business/index.php,https://dat.maryland.gov/pages/default.aspx
+Massachusetts,https://www.mass.gov/service-details/check-the-status-of-your-massachusetts-personal-income-tax-refund,https://www.mass.gov/dor,true,https://www.mass.gov/topics/business-tax,https://www.mass.gov/topics/property-tax
+Michigan,https://mto.treasury.michigan.gov/EServices/,https://www.michigan.gov/taxes,true,https://www.michigan.gov/taxes/business-taxes,https://www.michigan.gov/treasury/property
+Minnesota,https://www.revenue.state.mn.us/wheres-my-refund,https://www.revenue.state.mn.us/,true,https://www.revenue.state.mn.us/businesses,https://www.revenue.state.mn.us/property-tax
+Mississippi,https://tap.dor.ms.gov/_/,https://www.dor.ms.gov/,true,https://www.dor.ms.gov/business,https://www.dor.ms.gov/property
+Missouri,https://dors.mo.gov/tax/iit/refund.php,https://dor.mo.gov/,true,https://dor.mo.gov/business/,https://dor.mo.gov/property/
+Montana,https://mtrevenue.gov/tap/_/,https://mtrevenue.gov/,true,https://mtrevenue.gov/business/,https://mtrevenue.gov/property/
+Nebraska,https://revenue.nebraska.gov/about/news-releases/wheres-my-refund,https://revenue.nebraska.gov/,true,https://revenue.nebraska.gov/businesses,https://revenue.nebraska.gov/property
+Nevada,N/A,https://tax.nv.gov/,false,https://tax.nv.gov/businesses/,https://tax.nv.gov/property-tax-overview/
+New Hampshire,https://www.revenue.nh.gov/contact/refund.htm,https://www.revenue.nh.gov/,limited,https://www.revenue.nh.gov/assistance/businesses.htm,https://www.revenue.nh.gov/assistance/municipal-and-property/
+New Jersey,https://www1.state.nj.us/TYTR_RefundInquiry/jsp/refund.jsp,https://www.state.nj.us/treasury/taxation/,true,https://www.state.nj.us/treasury/taxation/businesses.shtml,https://www.state.nj.us/treasury/taxation/lpt/lptindex.shtml
+New Mexico,https://tap.state.nm.us/_/,https://www.tax.newmexico.gov/,true,https://www.tax.newmexico.gov/businesses/,https://www.tax.newmexico.gov/property-taxes/
+New York,https://www.tax.ny.gov/pit/file/refund.htm,https://www.tax.ny.gov/,true,https://www.tax.ny.gov/bus/,https://www.tax.ny.gov/pit/property/
+North Carolina,https://www.ncdor.gov/wheres-my-refund,https://www.ncdor.gov/,true,https://www.ncdor.gov/taxes-forms/business-taxes,https://www.ncdor.gov/taxes-forms/property-tax
+North Dakota,https://apps.nd.gov/tax/tap/_/,https://www.tax.nd.gov/,true,https://www.tax.nd.gov/business,https://www.tax.nd.gov/property-taxes
+Ohio,https://tax.ohio.gov/individual/refunds,https://tax.ohio.gov/,true,https://tax.ohio.gov/business,https://tax.ohio.gov/help-center/faqs/property-tax-faq
+Oklahoma,https://oktap.tax.ok.gov/,https://oklahoma.gov/tax.html,true,https://oklahoma.gov/tax/businesses.html,https://www.ok.gov/tax/Property_Valuation/index.html
+Oregon,https://www.oregon.gov/dor/pages/refund.aspx,https://www.oregon.gov/dor/,true,https://www.oregon.gov/dor/business/pages/default.aspx,https://www.oregon.gov/dor/programs/property/pages/default.aspx
+Pennsylvania,https://www.revenue.pa.gov/OnlineServices/TaxServices/RefundStatus/Pages/default.aspx,https://www.revenue.pa.gov/,true,https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/Pages/default.aspx,https://www.revenue.pa.gov/TaxTypes/PropertyTax/Pages/default.aspx
+Rhode Island,https://tax.ri.gov/refund/,https://tax.ri.gov/,true,https://tax.ri.gov/Business/index.php,https://tax.ri.gov/Property/
+South Carolina,https://dor.sc.gov/tax/refund,https://dor.sc.gov/,true,https://dor.sc.gov/tax/business,https://dor.sc.gov/property
+South Dakota,N/A,https://dor.sd.gov/,false,https://dor.sd.gov/businesses/taxes/,https://dor.sd.gov/businesses/property/
+Tennessee,N/A,https://www.tn.gov/revenue.html,false,https://www.tn.gov/revenue/taxes/business-tax.html,https://www.tn.gov/revenue/taxes/property-tax.html
+Texas,N/A,https://comptroller.texas.gov/,false,https://comptroller.texas.gov/taxes/,https://comptroller.texas.gov/taxes/property-tax/
+Utah,https://tap.utah.gov/TaxExpress/_/,https://tax.utah.gov/,true,https://tax.utah.gov/business,https://tax.utah.gov/property
+Vermont,https://myvtax.vermont.gov/_/,https://tax.vermont.gov/,true,https://tax.vermont.gov/business,https://tax.vermont.gov/property
+Virginia,https://www.tax.virginia.gov/refund-status-information,https://www.tax.virginia.gov/,true,https://www.tax.virginia.gov/business-taxes,https://www.tax.virginia.gov/local-taxes
+Washington,N/A,https://dor.wa.gov/,false,https://dor.wa.gov/taxes-rates/business-occupation-tax,https://dor.wa.gov/taxes-rates/property-tax
+West Virginia,https://tax.wv.gov/Individuals/RefundInformation/Pages/RefundInformation.aspx,https://tax.wv.gov/,true,https://tax.wv.gov/Business/Pages/Business.aspx,https://tax.wv.gov/Property/Pages/Property.aspx
+Wisconsin,https://www.revenue.wi.gov/Pages/FAQS/pcs-refund.aspx,https://www.revenue.wi.gov/,true,https://www.revenue.wi.gov/Pages/Businesses/Home.aspx,https://www.revenue.wi.gov/Pages/LocalGov/property.aspx
+Wyoming,N/A,https://revenue.wyo.gov/,false,https://revenue.wyo.gov/excise-tax-division/excise-taxes-and-fees,https://revenue.wyo.gov/property-tax-division

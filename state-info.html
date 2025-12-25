@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Tax Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="info-container">
+        <div class="info-section">
+            <header>
+                <h1 id="state-name">State Tax Information</h1>
+                <p class="subtitle" id="tax-status">Loading...</p>
+            </header>
+            
+            <main>
+                <div id="info-message" class="message info"></div>
+                
+                <div class="resource-links">
+                    <a id="main-tax-link" href="#" target="_blank" class="resource-button">
+                        <span class="icon">🏛️</span>
+                        <span>Main Tax Website</span>
+                    </a>
+                    
+                    <a id="business-link" href="#" target="_blank" class="resource-button">
+                        <span class="icon">💼</span>
+                        <span>Business Tax Resources</span>
+                    </a>
+                    
+                    <a id="property-link" href="#" target="_blank" class="resource-button">
+                        <span class="icon">🏠</span>
+                        <span>Property Tax Resources</span>
+                    </a>
+                </div>
+                
+                <div style="margin-top: 30px; text-align: center;">
+                    <button onclick="window.location.href='index.html'" class="check-button">
+                        ← Back to State Selection
+                    </button>
+                </div>
+            </main>
+            
+            <footer>
+                <p>For tax refund status, please check with your state's tax department.</p>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="state-info.js"></script>
+</body>
+</html>
