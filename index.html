@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>State Tax Refund Lookup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; }
+    label, select, button { font-size: 1rem; }
+    .wrapper { max-width: 500px; }
+    select, button { padding: 0.4rem 0.6rem; margin-top: 0.5rem; }
+    button { cursor: pointer; }
+    .notes { margin-top: 0.75rem; font-size: 0.9rem; color: #444; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>State Tax Refund Lookup</h1>
+    <p>Select your state to go to its official refund status page.</p>
+
+    <label for="stateSelect">State:</label><br />
+    <select id="stateSelect">
+      <option value="">-- Choose a state --</option>
+    </select>
+    <button id="goButton">Go</button>
+
+    <div id="notes" class="notes"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
