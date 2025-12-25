@@ -1,0 +1,4 @@
+"state_name,state_code,refund_url,notes"
+"Alabama,AL,https://myalabamataxes.alabama.gov/_/,""Requires SSN and refund amount"""
+"Alaska,AK,https://online.tax.alaska.gov/RefundStatus,""No personal income tax; example entry"""
+"Arizona,AZ,https://aztaxes.gov/Home/CheckRefund,""SSN, status, ZIP"""
