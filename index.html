@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Income Tax Refund Status Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>State Income Tax Refund Status</h1>
+            <p class="subtitle">Select your state to check your refund status</p>
+        </header>
+        
+        <main>
+            <div class="form-container">
+                <label for="state-select">Choose your state:</label>
+                <select id="state-select" class="state-dropdown">
+                    <option value="">-- Select a State --</option>
+                </select>
+                
+                <button id="check-button" class="check-button" disabled>Check Refund Status</button>
+                
+                <div id="message" class="message"></div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>This tool provides direct links to official state tax refund status pages.</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
